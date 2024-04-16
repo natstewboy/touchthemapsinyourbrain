@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="maps-master.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>stay updated</title>
+</head>
+<body>
+    <div>
+        <header>
+            <a href="index.html"><h1>touch the maps in your brain</h1></a>
+        </header>
+    </div>
+        <nav>
+            <a href="poetry.html"><h2>the poetry</h2></a>
+            <a href="experiment.html"><h2>the experiment</h2></a>
+            <a href="exhibition.html"><h2>exhibition</h2></a>
+            <a href="maillist.html" class="currentpage"><h2>stay updated</h2></a>
+            <a href="sources.html"><h2>source list</h2></a>
+        </nav>
+    <main>
+        <h2 class="forerow">DISCLAIMER: THIS IS A SCHOOL ASSIGNMENT. NONE OF THIS INFORMATION IS STORED BEYOND THE CONFIRMATION PAGE.</h2>
+        <h1 class="forerow">sign up</h1>
+        <form action="processing.php" method="post">
+            <div class="forerow">
+                <label for="family-name">family name&colon;</label> 
+                <input type="text" name="family-name" id="family-name" placeholder="stewart" required>
+            </div>
+            <div class="forerow">
+                <label for="email">email&colon;</label> 
+                <input type="email" name="email" id="email" placeholder="natstewart@dummyaddr.ess" required>
+            </div>
+            <div class="forerow">
+                <label for="feedback">what type of news would you like to see in your inbox&quest;</label>
+                <textarea name="feedback" id="feedback" placeholder="&rdquo;new projects, published works, personal announcements, cool writing updates, etc.&ldquo;"></textarea> 
+            </div>
+            <div class="checkrow">
+                <div class="spacer">i understand that I am agreeing to receive email updates surrounding the subject of this website. i can unsubscribe at any point in the future if they become unwelcome.</div>
+                <label><input type="checkbox" name="agree">I agree</label>
+            </div>
+            <div class="checkrow">
+                <input type="submit" value="Sign Up">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;Nat Stewart</p>
+        <p>Font "OpenDyslexic-Regular" courtesy of Abbie Gonzalez. For more information on the font and related dyslexia resources, click <a href="https://opendyslexic.org/about">here</a>.</p>
+        </footer>
+</body>
+</html>
